@@ -51,4 +51,15 @@ class User extends Authenticatable
             3 => 'admin.users',
         };
     }
+
+    //transform data using mutator or Observe
+    // public function setFieldNameAttribute(){
+
+    // }
+
+    // public function setStartAtAttribute($value){
+    //     $this->attributes['start_at'] = Carbon::createFromFormat('m/d/Y', $value)->format('Y-m-d');
+
+    // }
+
 }
